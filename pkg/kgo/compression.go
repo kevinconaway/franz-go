@@ -11,7 +11,7 @@ import (
 
 	"github.com/klauspost/compress/s2"
 	"github.com/klauspost/compress/zstd"
-	"github.com/pierrec/lz4/v4"
+	lz4 "github.com/pierrec/lz4/v4"
 )
 
 // NOTE: level configuration was removed at some point due to it likely being
